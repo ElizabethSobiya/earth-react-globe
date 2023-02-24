@@ -1,10 +1,14 @@
 import React from 'react';
-import ReactGlobe from 'react-globe'
+import './App.css';
 
-function App() {
+function Nav() {
   return (
-    <ReactGlobe />
+   <>
+    <div>
+      <h1>Hello world</h1>
+    </div>
+   </>
   );
 }
 
-export default App;
+export default Nav;
