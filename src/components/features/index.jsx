@@ -1,8 +1,9 @@
 import React from 'react'
+import Features from './features'
 
 function index() {
   return (
-    <div>Features</div>
+    <Features/>
   )
 }
 

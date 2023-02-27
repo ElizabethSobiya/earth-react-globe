@@ -7,6 +7,7 @@ import Partners from './components/partners/index'
 import Blog from './components/blog/index'
 import Navbar from './components/navbar/Navbar'
 import Home from './components/home/index'
+import Footer from './components/footer/footer'
 
 function Head() {
   return (
@@ -22,6 +23,7 @@ function Head() {
         <Route exact path='/blog' element={<Blog/>}></Route>
       </Routes>
     </BrowserRouter>
+      <Footer/>
    </>
   )
 }
